@@ -1,0 +1,343 @@
+@media(max-width: 1220px){
+	.overview {
+		float: none;
+		max-width: 396px;
+		margin: 0 auto;
+	}
+
+	.left-color-gallery {
+		float: none;
+		max-width: 765px;
+		margin: 0 auto;
+	}
+
+	.block-color-watch {
+		margin-right: 8%;
+	}
+
+	.block-color-watch:last-child {
+		margin-right: 0;
+	}
+
+	.block-color-watch:nth-child(2n) {
+		margin-right: 8%;
+	}
+
+	.price-old::after {
+		right: -100px;
+	}
+
+	.features{
+		max-width: 618px;
+	}
+
+	.features-part:nth-child(n+4){
+		width: 50%;
+		margin-top: 50px;
+	}
+
+	.gallery-card:nth-child(3n) {
+		margin-right: 0;
+	}
+
+	.gallery-cards {
+		max-width: 861px;
+		margin: 72px auto 78px auto; 
+	}
+
+	.gallery-card:nth-child(4n){
+		margin-right: 63px;
+	}
+
+	.gallery-card:nth-child(n+2) {
+		margin-bottom: 39px;
+	}
+
+	.riviews-block {
+		padding-left: 0;
+	}
+
+	.review-block {
+		padding-left: 2%;
+	}
+
+}
+
+
+
+@media(max-width: 992px){
+	.banner-watch {
+		display: none;
+	}
+
+	.square {
+		display: none;
+	}
+
+	.reqcall {
+		float: left;
+		margin-left: 30px;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	.tagline {
+		text-align: center;
+	}
+
+	.banner-btn {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.main-nav {
+		display: none;
+	}
+
+	.m-menu {
+		display: block;
+	}
+
+	.color-gallery {
+		max-width: 100%;
+		height: 389px;
+		margin: 119px 3px 92px 3px;
+	}
+
+	.left-color-gallery {
+		margin: 0 auto;
+		max-width: 307px;
+		margin-top: 24px;
+	}
+
+	.block-color-watch {
+		margin-right: 47px;
+		margin-bottom: 47px;
+		float: left;
+	}
+
+	.block-color-watch:nth-child(2n) {
+		margin-right: 0;
+	}
+
+	.event-block {
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.amount, .limited, .event-text {
+		text-align: center;
+	}
+
+	.price-old {
+		margin: 50px auto 100px auto;
+	}
+
+	.price-old::after {
+		right: 0;
+	}
+
+	.event-stock-text {
+		margin-top: 100px;
+	}
+
+	.features-or {
+		float: none;
+		text-align: center;
+		margin-left: 0;
+		margin-top: 20px;
+		line-height: 50px;
+	}
+
+	.features-btn {
+		float: none;
+		margin: 36px auto 0 auto;
+	}
+
+	.features-watch {
+		float: none;
+		margin-left: 0;
+		line-height: 50px;
+		text-align: center;
+	}
+
+	.video {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.feature {
+		padding-bottom: 250px;
+	}
+
+	.gallery-cards {
+		max-width: 553px;
+		margin: 72px auto 78px auto; 
+	}
+
+	.gallery-card:nth-child(4n){
+		margin-right: 0;
+	}
+
+
+	.gallery-card:nth-child(2n) {
+		margin-right: 0;
+	}
+
+	.gallery-card:nth-child(2n+1){
+		margin-right: 63px;
+	}
+
+	.riviews-block img {
+		float: none;
+		margin: 0 auto
+	}
+
+	.review-block {
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.form-group-right {
+		float: none;
+		padding-top: 20px;
+	}
+
+	.form-group-left {
+		float: none;
+	}
+
+	.footer-nav {
+		float: none;
+	}
+
+	.footer-btn {
+		float: none;
+		margin: 30px  auto;
+
+	}
+
+	.tel {
+		float: none;
+		max-width: 220px;
+		margin: 0 auto;
+		padding-right: 0;
+	}
+
+	.tel:before {
+		display: none;
+	}
+
+	.footer-nav {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+@media(min-width: 992px){
+	.m-nav {
+		display: none;
+	}
+}
+
+@media(max-width: 690px){
+	
+	h1 {
+		font-size: 50px;
+	}
+
+	.tagline {
+		font-size: 30px;
+	}
+
+	.features{
+		max-width: 412px;
+		margin: 0 auto;
+	}
+
+	.features-part {
+		float: none;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+
+	.features-part:nth-child(n+4){
+		width: 206px;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+
+	.banner-btn {
+		width: 100%;
+	}
+
+	.popup {
+		width: 300px;
+		left: calc(50% - 150px);
+	}
+
+
+	.gallery-card:nth-child(4n){
+		margin-right: 0;
+	}
+
+
+	.gallery-cards {
+		width: 100%;
+		margin: 72px auto 78px auto; 
+	}
+
+	.gallery-card {
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+		margin-right: auto;
+	}
+
+
+	.gallery-card:nth-child(2n) {
+		margin-right: auto;
+	}
+
+	.gallery-card:nth-child(2n+1){
+		margin-right: auto;
+	}
+
+	.gallery-card:nth-child(4n){
+		margin-right: auto;
+	}
+
+	.inner-subscribe {
+		padding: 0 20px;
+	}
+
+	.form-group-right {
+		float: none;
+		padding-top: 20px;
+	}
+
+	.form-group-left {
+		float: none;
+		width: 100%;
+	}
+
+	.input-subscribe {
+		display: block;
+		width: 100%;
+	}
+
+	.m-nav {
+		width: 100%;
+	}
+}
+
+@media(max-width: 310px){
+	.container {
+		padding: 0;
+	}
+}
