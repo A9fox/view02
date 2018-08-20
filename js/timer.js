@@ -1,6 +1,6 @@
 function timer() {
 	var today = new Date(),
-		eventDate = new Date("August 17, 2018 11:00");
+		eventDate = new Date("September 3, 2018 11:00");
 
 
 	var todayTime = today.getTime(),
